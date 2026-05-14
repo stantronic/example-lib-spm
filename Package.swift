@@ -13,8 +13,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ExampleLib",
-            url:"https://trialdedos0.jfrog.io/artifactory/autocabtrial-libs-snapshot-local/com/autocab/spikes/examplelib-spm/1.0.0-SNAPSHOT/examplelib-spm-1.0.0-20260514.130826-6.zip",
-            checksum: "79ca18bc9769102ecfa4b07f3a39c58315319cf79fe698ee32840dabb7fe7dd3"
+            url: "https://trialdedos0.jfrog.io/artifactory/autocabtrial-libs-snapshot-local/com/autocab/spikes/examplelib-spm/1.0.0-SNAPSHOT/examplelib-spm-1.0.0-20260514.133838-7.zip",
+            checksum: "0205f4c3ffd664a2d5f6be9dba9e749aa75f4d64dbc253f87de157b3dfbfc618"
         ),
         .target(name: "ExampleLibTarget", dependencies: [.target(name: "ExampleLib")]),
     ])
