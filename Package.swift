@@ -14,7 +14,7 @@ let package = Package(
         .binaryTarget(
             name: "ExampleLib",
             url:"https://trialdedos0.jfrog.io/artifactory/autocabtrial-libs-snapshot-local/com/autocab/spikes/examplelib-spm/1.0.0-SNAPSHOT/examplelib-spm-1.0.0-20260514.130826-6.zip",
-            checksum: "4de90791084b5106ba6a3959197237016db90364a1bf6b8eb71bd1fe5be6aab8"
+            checksum: "79ca18bc9769102ecfa4b07f3a39c58315319cf79fe698ee32840dabb7fe7dd3"
         ),
         .target(name: "ExampleLibTarget", dependencies: [.target(name: "ExampleLib")]),
     ])
